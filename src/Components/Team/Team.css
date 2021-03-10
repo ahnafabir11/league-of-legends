@@ -4,6 +4,10 @@
 
 .team-card {
   width: 18rem;
+  background-image: url('../../Images/card-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  
 }
 
 .team-logo {
