@@ -1,0 +1,12 @@
+.Team {
+  margin: 10px 5px;
+}
+
+.team-card {
+  width: 18rem;
+}
+
+.team-logo {
+  width: 50%;
+  margin: 10px auto 0px auto;
+}

@@ -1,0 +1,37 @@
+.web-banner {
+  background-image: url(../../Images/banner.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 100vh;
+}
+
+.website-title {
+  color: white;
+  text-align: center;
+  padding: 150px 0px;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1320px) {
+  .website-title {
+    padding: 100px 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .website-title {
+    padding: 70px 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .website-title {
+    padding: 3rem 0px;
+  }
+}
