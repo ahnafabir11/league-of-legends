@@ -18,6 +18,7 @@
   justify-content: space-evenly;
 }
 
+/* banner responsive */
 @media (max-width: 1320px) {
   .website-title {
     padding: 100px 0px;

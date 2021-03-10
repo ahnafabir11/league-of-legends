@@ -1,6 +1,6 @@
+import './Home.css';
 import React, { useEffect, useState } from 'react';
 import Team from '../Team/Team';
-import './Home.css'
 
 const Home = ()=> {
   const [teams, setTeams] = useState([]);
@@ -12,11 +12,11 @@ const Home = ()=> {
   }, [teams])
 
   return (
-    <div className="container-flueid web-banner">
+    <div className="web-banner">
       <h1 className="website-title">League Of Legends</h1>
 
       <div className="container">
-        <div className="pt-md-5 team-list">
+        <div className="team-list">
           {
             teams.map((team, idx) => <Team key={idx} team={team} />)
           }

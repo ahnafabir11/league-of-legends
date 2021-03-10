@@ -1,9 +1,9 @@
+import './Team.css';
 import React from 'react';
+import { useHistory } from 'react-router';
 import { Card } from 'react-bootstrap';
 import Button from '@material-ui/core/Button'
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
-import './Team.css';
-import { useHistory } from 'react-router';
 
 const Team = ({team})=>  {
   const {idTeam, strTeamBadge, strTeam, strSport, strGender} = team;
@@ -22,9 +22,8 @@ const Team = ({team})=>  {
 
           <Button
             variant="contained"
-            color="primary"
             endIcon={<SearchOutlinedIcon />}
-            className="m-auto d-flex"
+            className="m-auto d-flex bg-warning"
             onClick={handleClick}
           >
             Explore

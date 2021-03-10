@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { Jumbotron } from 'react-bootstrap';
-import { useParams } from 'react-router';
 import './TeamDetails.css';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router';
+import { Jumbotron } from 'react-bootstrap';
 import maleImage from '../../Images/male.png';
 import femaleImage from '../../Images/female.png';
 import AddLocationIcon from '@material-ui/icons/AddLocation';
@@ -30,6 +30,8 @@ const TeamDetails = ()=> {
     .then(res => res.json())
       .then(data => setTeam(data.teams[0]))
   }, [teamId])
+
+  console.log(team);
 
   return (
     <div className="web-banner">

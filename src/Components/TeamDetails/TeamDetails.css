@@ -5,7 +5,7 @@
   display: flex
 }
 
-
+/* banner responsive for details page */
 @media (max-width: 1330px) {
   .banner-team-logo {
     width: 180px;
