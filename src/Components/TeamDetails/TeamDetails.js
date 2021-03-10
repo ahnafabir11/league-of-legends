@@ -59,13 +59,13 @@ const TeamDetails = ()=> {
         </p>
 
         <div className="row justify-content-center py-5">
-          <a href={`https://${strInstagram}`} className="text-danger">
+          <a href={`https://${strInstagram}`} target="blank" className="text-danger">
             <FaInstagramSquare style={{ fontSize: '40px' }} />
           </a>
-          <a href={`https://${strFacebook}`} className="text-primary">
+          <a href={`https://${strFacebook}`} target="blank" className="text-primary">
             <FaFacebookSquare style={{ fontSize: '40px' }} />
           </a>
-          <a href={`https://${strYoutube}`} className="text-danger">
+          <a href={`https://${strYoutube}`} target="blank" className="text-danger">
             <FaYoutubeSquare style={{ fontSize: '40px' }} />
           </a>
         </div>
